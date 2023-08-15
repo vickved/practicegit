@@ -1,0 +1,35 @@
+	package AssignmentQue;
+import java.util.Scanner;
+
+public class EmployeeDetail6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the emp deatil:");
+		System.out.println("Employee name=");
+		String name=s.nextLine();
+		System.out.println("emp age=");
+		byte age=s.nextByte();
+		System.out.println("emp phone number=");
+		long phno=s.nextLong();
+		System.out.println("emp address=");
+		String add=s.nextLine();
+		System.out.println(name+"\t"+age+"\t"+phno+"\n"+add+"\n");
+
+	}
+
+}
+
+o/p:
+Enter the emp deatil:
+Employee name=
+vedika
+emp age=
+23
+emp phone number=
+1233454567
+emp address=
+vedika	23	1233454567
+
+
